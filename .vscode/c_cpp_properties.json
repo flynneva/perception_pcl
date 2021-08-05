@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/flynn/code/ros/galactic/install/usb_cam/include/**",
+        "/home/flynn/code/ros/galactic/install/udp_msgs/include/**",
+        "/home/flynn/code/ros/galactic/install/io_context/include/**",
+        "/home/flynn/code/ros/galactic/install/hrl_driver/include/**",
+        "/home/flynn/code/ros/galactic/install/derived_object_msgs/include/**",
+        "/home/flynn/code/ros/galactic/install/delphi_mrr_msgs/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/flynn/code/ros/noetic/src/perception_pcl/pcl_conversions/include/**",
+        "/home/flynn/code/ros/noetic/src/perception_pcl/pcl_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

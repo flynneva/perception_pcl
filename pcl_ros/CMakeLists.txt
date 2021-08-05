@@ -70,6 +70,7 @@ include_directories(
 
 ## Generate dynamic_reconfigure
 generate_dynamic_reconfigure_options(
+  cfg/ConditionalRemoval.cfg
   cfg/EuclideanClusterExtraction.cfg
   cfg/ExtractIndices.cfg
   cfg/ExtractPolygonalPrismData.cfg
@@ -163,6 +164,7 @@ add_dependencies(pcl_ros_filter ${PROJECT_NAME}_gencfg)
 add_library(pcl_ros_filters
   src/pcl_ros/filters/extract_indices.cpp
   src/pcl_ros/filters/passthrough.cpp
+  src/pcl_ros/filters/conditional_removal.cpp
   src/pcl_ros/filters/project_inliers.cpp
   src/pcl_ros/filters/radius_outlier_removal.cpp
   src/pcl_ros/filters/statistical_outlier_removal.cpp
